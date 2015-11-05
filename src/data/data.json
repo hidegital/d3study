@@ -7,7 +7,7 @@
         "label": "Fannkuch"
       },
       {
-        "value": 1,
+        "value": 0.1,
         "label": "Heapsort"
       },
       {
@@ -19,7 +19,7 @@
         "label": "Spectral Norm"
       },
       {
-        "value": 1,
+        "value": 0.5,
         "label": "Richards"
       },
       {
@@ -27,7 +27,7 @@
         "label": "Fasta"
       },
       {
-        "value": 1,
+        "value": 0.7,
         "label": "Nbody"
       }
     ],
