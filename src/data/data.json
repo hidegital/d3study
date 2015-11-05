@@ -1,6 +1,5 @@
 [
   {
-    "color": "green",
     "values": [
       {
         "value": 1,
@@ -34,7 +33,6 @@
     "key": "PHP"
   },
   {
-    "color": "red",
     "values": [
       {
         "value": 0.2088878192247527,
@@ -68,7 +66,7 @@
     "key": "HHVM"
   },
   {
-    "color": "blue",
+    "color": "#999",
     "values": [
       {
         "value": 0.1377814236531126,
