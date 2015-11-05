@@ -12,11 +12,11 @@ var data01 = function() {  //simpledata barchart
                 .margin({top: 30, right: 20, bottom: 50, left: 100})
                 .showControls(false);
 
-            chart.yAxis.tickFormat(d3.format(',.2f'));
+            chart.yAxis.tickFormat(d3.format(',.5f'));
             //d3.format(',.2f')これoptionかな
 
-            d3.select('#chart1 svg').datum(data).call(chart);
-            d3.select('#chart1 svg').transition().duration(500).call(chart);
+            d3.select('#chart1 svg').datum(data).transition().duration(500).call(chart);
+            //d3.select('#chart1 svg').transition().duration(500).call(chart);
             //これアニメーション
 
             return chart;
